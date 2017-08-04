@@ -1,0 +1,52 @@
+.footer{
+    padding: 80px 0;
+    background: url('img/footer.jpg') no-repeat center;
+    background-size: cover;
+
+    &-form{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 1170px;
+        color: #fff;
+
+        &__title{
+            .text(18px; 28px);
+            text-transform: uppercase;
+        }
+
+        &__input{
+            margin-top: 25px;
+            padding: 0 20px;
+            height: 50px;
+            .text(18px; 50px);
+            background: none;
+            border: 1px solid;
+            color: #fff;
+        }
+
+        &__submit{
+            align-self: flex-end;
+            .size(270px; 50px);
+            .text(18px; 50px);
+            text-align: center;
+            text-transform: uppercase;
+            color: #000;
+            background-color: #fff;
+            border: 1px solid;
+            transition-duration: .5s;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #000;
+                color: #fff;
+            }
+        }
+    }
+
+    &-left{
+        display: flex;
+        flex-direction: column;
+        width: 770px;
+    }
+}

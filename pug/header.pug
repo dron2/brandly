@@ -1,0 +1,16 @@
+- const nav = ['Home', 'Shop', 'Brands', 'Blog', 'About', 'Contact'];
+
+header.header
+    div.header-top
+        a.header__logo(href='#')
+            img(alt='Brandly' src='img/header-logo.png' width='126' height='34')
+        nav.nav
+            ul
+                each item in nav
+                    li
+                        a(href='#')= item
+    div.header-text
+        span.header-text__summer Spring / Summer Collection
+        span.header-text__discount Up to 60% discount on new Arrivals
+        span.header-text__trend Trending new items, from creators around the world
+    a.header__link-shop(href='#') Shop Now
